@@ -10,4 +10,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: primeiro-passo
-              run: echo ls
+              run: echo "Oi Mundo do DevOps!"
+            - name: segundo-passo
+              run: ls -al
