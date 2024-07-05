@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: primeiro-passo
-              run: echo "Oi Mudo do DevOps!"
+              run: echo ls
