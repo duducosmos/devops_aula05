@@ -8,8 +8,10 @@ on:
 jobs:
     build-and-test:
         runs-on: ubuntu-latest
+        
         steps:
+            # Comentário primeiro passo
             - name: primeiro-passo
-              run: echo "Oi Mundo do DevOps!"
+              run: echo "Oi Mundo do DevOps!" | echo "Irei listar os arquivos em tela" 
             - name: segundo-passo
               run: ls -al
