@@ -12,6 +12,10 @@ jobs:
         steps:
             # Comentário primeiro passo
             - name: primeiro-passo
-              run: echo "Oi Mundo do DevOps!" | echo "Irei listar os arquivos em tela" 
+              run: |
+               echo "Oi Mundo do DevOps!" | echo "Irei listar os arquivos em tela" 
             - name: segundo-passo
               run: ls -al
+            - name: teste_pipe
+              run: |
+                echo "Hello, world!" | tee hello.txt | cat -n
